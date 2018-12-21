@@ -1,15 +1,15 @@
 1. Resultasn Gaya
 
-    //algorithm
+    // =========== algorithm ===========
     1. masukkan massa benda menjadi 600 kg
     2. masukkan percepatan benda menjadi 2 m/s
     3. hitung resultan gaya
     4. tampilkan hasil perhitungan
 
 
-    //pseudocode
-    SET "massa" to 600
-    SET "percepatan" to 2m/s
+    // =========== pseudocode ============
+    STORE "massa" to 600
+    STORE "percepatan" to 2m/s
 
     CALCULATE "massa" x "percepatan"
     SET "output" to result from calculation
@@ -21,7 +21,7 @@
 
     // ========= pseudocode ===========
 
-    SET "tahun" to 2018
+    STORE "tahun" to 2018
     CALCULATE "tahun" % 4
       SET "output1" to result from calculation
     CALCULATE "tahun" % 100
@@ -55,7 +55,7 @@
       3. jika sudah 20 baju yang masuk, maka tampilkan "Selesai"
 
       // ============= pseudocode ===========
-      set "baju"
+      STORE "baju"
       WHILE "baju" <= 20
            ADD 1 to "baju"
       ENDWHILE
@@ -63,7 +63,7 @@
 4. periksa kuku
 
       // ============= pseudocode ===========
-      SET "murid" with 40
+      STORE "murid" with 40
       IF "murid" === "kuku panjang"
         DO "hukuman"
       ELSE
