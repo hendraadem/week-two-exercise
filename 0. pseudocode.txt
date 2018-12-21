@@ -1,0 +1,75 @@
+1. Resultasn Gaya
+
+    //algorithm
+    1. masukkan massa benda menjadi 600 kg
+    2. masukkan percepatan benda menjadi 2 m/s
+    3. hitung resultan gaya
+    4. tampilkan hasil perhitungan
+
+
+    //pseudocode
+    SET "massa" to 600
+    SET "percepatan" to 2m/s
+
+    CALCULATE "massa" x "percepatan"
+    SET "output" to result from calculation
+
+    DISPLAY "output"
+
+
+2. Tahun Kabisat
+
+    // ========= pseudocode ===========
+
+    SET "tahun" to 2018
+    CALCULATE "tahun" % 4
+      SET "output1" to result from calculation
+    CALCULATE "tahun" % 100
+      SET "output2" to result from calculation
+    CALCULATE "tahun" % 400
+      SET "output3" to result from calculation
+
+    IF "output1" equal to 0 AND "output2" equal to > 0
+      DISPLAY "Tahun Kabisat"
+    IF "output1" equal to 0 AND "output2" equal to 0 AND "output3" equal to 0
+      DISPLAY "Tahun Kabisat"
+    ELSE
+      DISPLAY "Bukan tahun kabisat"
+
+    // =========== algorithm ============
+
+    1. masukkan tahun menjadi 2018
+    2. hitung tahun dengan modulus 4 dan masukkkan ke output1
+    3. hitung tahun dengan modulus 100 dan masukkkan ke output2
+    4. hitung tahun dengan modulus 400 dan masukkkan ke output3
+    5. jika hasil1 = 0 DAN hasil2 >= 0 maka tampilkan "Tahun Kabisat"
+    6. jika hasil1, hasil2, hasil3 outputnya = 0 maka tampilkan "Tahun Kabisat"
+    7. jika selain diatas maka tampilkan "Bukan Tahun Kabisat"
+
+
+3. laundry
+
+      // ========== algorithm ============
+      1. siapkan baju
+      2. masukkan baju dan hitung selama belum mencapai 20 baju, maka tambah 1 baju lagi
+      3. jika sudah 20 baju yang masuk, maka tampilkan "Selesai"
+
+      // ============= pseudocode ===========
+      set "baju"
+      WHILE "baju" <= 20
+           ADD 1 to "baju"
+      ENDWHILE
+
+4. periksa kuku
+
+      // ============= pseudocode ===========
+      SET "murid" with 40
+      IF "murid" === "kuku panjang"
+        DO "hukuman"
+      ELSE
+        DO "pujian"
+
+      // ============ algorithm ===========
+      1. 40 siswa dalam kelas
+      2. jika ada siswa dengan "kuku panjang" maka lakukan "hukuman"
+      3. jika ada siswa dengan "kuku rapi" maka lakukan "pujian"
